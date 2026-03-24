@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para você 🤝</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: #00bcd4;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #gif {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <p>
+      Só queria te dizer que você é importante pra mim.<br><br>
+
+      Não é só um irmão de consideração, é alguém que eu sei que posso contar de verdade.<br><br>
+
+      Independente da situação, eu sei que a gente tá junto.<br><br>
+
+      Obrigado por tudo, pelas ideias, pelos momentos e pela parceria de sempre.<br><br>
+
+      Pode contar comigo também, pra qualquer coisa.<br><br>
+
+      Tamo junto sempre 🤝🔥
+    </p>
+
+    <!-- IMAGEM (sempre aparece) -->
+    <img src="imagem.jpg">
+
+    <!-- BOTÃO -->
+    <button onclick="mostrarGif()">Mostrar surpresa</button>
+
+    <!-- GIF (só aparece ao clicar) -->
+    <img id="gif" src="gif.gif">
+
+  </div>
+
+  <script>
+    function mostrarGif() {
+      document.getElementById("gif").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
